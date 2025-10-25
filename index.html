@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>hello world</h1>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Ravi Teja Gudapati</h1>
+      <p>Full Stack Developer | Angular, Ionic, SQL, Java</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a dedicated and passionate software developer with expertise in Angular, Ionic, SQL, and Java. I specialize in designing and building modern, scalable, and high-performance web and mobile applications. My approach focuses on writing clean, efficient, and maintainable code, ensuring that every project I work on delivers both functionality and an exceptional user experience.
+
+        With a strong foundation in both front-end and back-end development, I thrive on transforming complex requirements into intuitive, seamless solutions. I am committed to staying up-to-date with the latest technologies and best practices, continuously improving my skills to create innovative and reliable applications that make an impact.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">Angular</div>
+        <div class="skill-card">Ionic</div>
+        <div class="skill-card">SQL</div>
+        <div class="skill-card">Java</div>
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Project 1</h3>
+          <p>Angular web app with SQL backend.</p>
+        </div>
+        <div class="project-card">
+          <h3>Project 2</h3>
+          <p>Ionic mobile app integrated with Java services.</p>
+        </div>
+        <div class="project-card">
+          <h3>Project 3</h3>
+          <p>Full stack application using Angular, SQL, and Java.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ravi Teja Gudapati. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
